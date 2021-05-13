@@ -83,6 +83,7 @@
                                 <state key="normal" title="Take Photo"/>
                                 <connections>
                                     <action selector="takePhoto:" destination="s5S-c1-D7y" eventType="touchUpInside" id="pfv-3F-5FU"/>
+                                    <segue destination="6Uh-HC-8x3" kind="show" id="KgK-b3-HDu"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -92,7 +93,6 @@
                     <navigationItem key="navigationItem" id="B5W-z2-V6K"/>
                     <connections>
                         <outlet property="imageView" destination="N4g-gz-KY5" id="t7F-P8-3Qa"/>
-                        <segue destination="6Uh-HC-8x3" kind="show" identifier="secondToThirdSegue" id="jlh-V0-fHr"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="F2s-Gt-BPJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

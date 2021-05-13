@@ -28,4 +28,5 @@ class secondView: UIViewController, UINavigationControllerDelegate, UIImagePicke
         imagePicker.dismiss(animated: true, completion: nil)
         imageView.image = info[.originalImage] as? UIImage
     }
+    
 }
